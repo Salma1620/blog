@@ -77,7 +77,7 @@ $popular_result= mysqli_query($connexion, $popular_query);
         <div class="swiper-slide card">
 
           <div class="card_content card_content_1">
-            <img src="images\categorymusic.jpg"/>
+            <img src="images\categorymusic1.jpg"/>
               <div class="text">
                 <h2 data-splitting="">Music</h2>
                 <p data-splitting="">Music encompasses a vast range of genres, styles, and sounds, all created to evoke emotions and express ideas. It is a universal language that connects people from all walks of life.</p>
@@ -91,7 +91,7 @@ $popular_result= mysqli_query($connexion, $popular_query);
           <!-- card content -->
 
           <div class="card_content card_content_2">
-            <img src="images\categorystyle.jpg"/>
+            <img src="images\categorystyle1.jpg"/>
                 <div class="text">
                   <h2 data-splitting="">Style</h2>
                   <p data-splitting=""> Fashion style is a form of art that involves the use of clothing and accessories to express oneself. It can be influenced by various factors such as personal taste, culture, and current trends.</p>
@@ -105,7 +105,7 @@ $popular_result= mysqli_query($connexion, $popular_query);
           <!-- card content -->
 
           <div class="card_content card_content_3">
-            <img src="images\categorytravel.jpg"/>
+            <img src="images\categorytravel1.jpg"/>
                 <div class="text">
                   <h2 data-splitting="">Travel</h2>
                   <p data-splitting="">Travel is a way to break free from daily routines and explore new places, people, and cultures. It can be an enriching experience that broadens one's horizons, and creates lasting memories.</p>
@@ -119,7 +119,7 @@ $popular_result= mysqli_query($connexion, $popular_query);
           <!-- card content -->
 
           <div class="card_content card_content_4">
-            <img src="images\categorynature.jpg"/>
+            <img src="images\categorynature1.jpeg"/>
                 <div class="text">
                   <h2 data-splitting="">Nature</h2>
                   <p data-splitting="">Nature encompasses the vast and diverse array of natural environments and phenomena that make up our world, including mountains, forests, oceans, and weather patterns. </p>
@@ -133,7 +133,7 @@ $popular_result= mysqli_query($connexion, $popular_query);
           <!-- card content -->
 
           <div class="card_content">
-            <img src="images\categorymusic.jpg"/>
+            <img src="images\categorydesign1.jpeg"/>
                 <div class="text">
                   <h2 data-splitting="">Design</h2>
                   <p data-splitting="">Design encompasses a wide range of creative fields, including graphic design, product design, architecture. It involves creation of functional and aesthetic objects and spaces.</p>
