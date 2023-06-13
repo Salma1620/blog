@@ -72,8 +72,8 @@ html {
     margin-left: 2%;
     width: 80%;
     display: grid;
-    grid-template-columns: 55% 55% ;
-    column-gap: 10%;
+    grid-template-columns: 50% 50% ;
+    column-gap: 12%;
 }
   .login-box .user-box {
     position: relative;
@@ -155,7 +155,7 @@ html {
 
   }
   .file input[type="file"]{
-    width: 75%;
+    width: 71%;
     border: none;
     margin-top: 10px;
     padding-left: 20px;
@@ -342,14 +342,63 @@ MEDIA QUERIES (SMALL DEVICES)
     }
 
     @media screen and (max-width: 700px){
+      .login-box .boox{
+        margin-left: 8%;
+        width: 78%;
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        column-gap: 12%;
+    }
       .login-box{
-        width: 90%;
+        height: 91%;
+        width: 95%;
         padding-left: 0;
         padding-right: 0;
       }
       .login-box .user-box input{
-        width: 100%;
+        width: 80%;
       }
-      }
+      .login-box .user-box input:focus ~ label,
+  .login-box .user-box input:valid ~ label {
+    top: -20px;
+    font-size: 15px;
+  }
+  
+  .login-box form .btna {
+    left: 10%;
+    font-size: 14px;
+  }
+  .btna button{
+    font-size: 13px;
+  }
+  .login-box .user-box label {
+    padding: 8px 0;
+    font-size: 15px;
+  }
+  .file{
+    left: 20%;
+    gap: 30px;
+  }
+  .file label{
+    font-size: 16px;
+    color: #c0bdbd;
+    margin-left: 9%;
+  }
+  .file input[type="file"]{
+    margin-bottom: 0;
+    width: 60%;
+    font-size: 15px;
+    padding-left: 0px;
 
-      
+    
+  }
+  .login-box .user-box #toggle-password1-button {
+    left: 70%;
+    font-size: 20px;
+  }
+  .login-box .user-box #toggle-password2-button {
+    left: 70%;
+    font-size: 20px;
+  }
+  
+      }
